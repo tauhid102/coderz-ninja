@@ -1,0 +1,133 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --primary-color: #3e57d0;
+  --hover-color: #3e57d0;
+  --font-color: #333;
+}
+.font-bold {
+  font-weight: 800px !important;
+}
+.heroFont {
+  font-size: 35px;
+}
+.heroFont-color {
+  color: var(--primary-color);
+}
+.hero-text {
+  display: flex;
+  align-items: center;
+}
+.background-image {
+  background-image: url(./Image/home-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero-section {
+  padding: 50px 0px;
+}
+.paddingTopBottom {
+  padding: 100px 0px;
+}
+.service-card {
+  border-radius: 10px;
+  height: 400px;
+}
+.service-card1 {
+  background-color: #f8f6f4;
+}
+.service-card2 {
+  background-color: #e3f4f4;
+}
+.service-card3 {
+  background-color: #dbdfaa;
+}
+.service-card4 {
+  background-color: #f8e8ee;
+}
+.service-card5 {
+  background-color: #dfffd8;
+}
+.service-card6 {
+  background-color: #f5efe6;
+}
+.aboutText {
+  display: flex;
+  align-items: center;
+}
+.aboutUs {
+  background-color: #fbf8f1;
+}
+.contactLeftBG {
+  background-color: #0071f2;
+  border-radius: 10px 0 0px 10px;
+  padding: 20px;
+}
+.insideContact {
+  background-color: #338df5;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.insideContact i {
+  font-size: 40px;
+  padding: 10px 15px;
+  border-radius: 50px;
+  margin-right: 10px;
+  background-color: #0071f2;
+  transform: .7s;
+}
+.insideContact .fa-envelope {
+  padding: 10px 10px;
+}
+.insideContact .fa-phone {
+  padding: 12px 10px;
+}
+.insideContact .fa-clock{
+  padding: 10px 10px;
+}
+.hoverEffect1:hover .fa-location-dot {
+  background-color: white;
+  color: #0071f2;
+  transition: .5s;
+}
+.hoverEffect2:hover .fa-envelope {
+  background-color: white;
+  color: #0071f2;
+  transition: .5s;
+}
+.hoverEffect3:hover .fa-phone {
+  background-color: white;
+  color: #0071f2;
+  transition: .5s;
+}
+.hoverEffect4:hover .fa-clock{
+  background-color: white;
+  color: #0071f2;
+  transition: .5s;
+}
+@media (max-width: 991px) {
+  .hero-text {
+    margin-top: 100px !important;
+    text-align: center;
+  }
+}
+@media (max-width: 914px) {
+  .heroFont {
+    font-size: 32px;
+  }
+}
