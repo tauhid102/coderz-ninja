@@ -7,6 +7,8 @@ import Service from "./Component/Service/Service";
 import About from "./Component/About/About";
 import MakeUsDiff from "./Component/MakeUsDiff/MakeUsDiff";
 import Contact from "./Component/Contact/Contact";
+import Footer from "./Component/Footer/Footer";
+import Copy from "./Component/Copy/Copy";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +23,8 @@ function App() {
       <About/>
       <MakeUsDiff/>
       <Contact/>
+      <Footer/>
+      <Copy/>
     </>
   );
 }

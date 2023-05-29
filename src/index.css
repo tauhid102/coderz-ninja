@@ -13,7 +13,7 @@
   -webkit-text-size-adjust: 100%;
 
   --primary-color: #3e57d0;
-  --hover-color: #3e57d0;
+  --hover-color: #0071F2;
   --font-color: #333;
 }
 .font-bold {
@@ -120,10 +120,69 @@
   color: #0071f2;
   transition: .5s;
 }
+.contactText{
+  margin-top: 25px;
+}
+.contactText h5{
+  /* margin-bottom: 0; */
+  line-height: 0.2
+}
+.form-control{
+  padding: 10px !important;
+  border-radius: 0px !important;
+}
+.contactFrom{
+  background-color: #FFFFFF;
+  border-radius: 0px 10px 10px 0px;
+}
+.contactButton{
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 40px;
+  transform: .7s;
+  text-align: center;
+}
+.contactButton:hover{
+  background-color: var(--hover-color);
+  /* background-color: #0071F2; */
+}
+.footer{
+  background-color: var(--hover-color);
+  color: #FFFFFF;
+}
+.footerList{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footerList a{
+  text-decoration: none;
+  color: white;
+}
+.footerList a:hover{
+  color: red;
+}
+.copyBackground{
+  background-color: var(--primary-color);
+  color: white;
+  padding: 40px 0;
+}
+.copyBackground p{
+  margin: 0;
+}
 @media (max-width: 991px) {
   .hero-text {
     margin-top: 100px !important;
     text-align: center;
+  }
+  .footer{
+    text-align: center;
+  }
+  .section{
+    margin-top: 20px !important;
+    border-bottom: 1px solid var(--primary-color);
   }
 }
 @media (max-width: 914px) {
