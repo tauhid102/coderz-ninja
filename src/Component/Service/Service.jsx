@@ -5,17 +5,23 @@ import design from "../../Image/design.png";
 import apps from "../../Image/apps-develop.png";
 import quality from "../../Image/quality-badge.png";
 import seo from "../../Image/seo.svg";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Service = () => {
-    useEffect(()=>{
-        AOS.init();
-    },[])
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="container paddingTopBottom" id="service">
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <h2 className="text-center">Our Service</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-5">
         <div class="col">
-          <div class="service-card p-4 border service-card1 shadow" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+          <div
+            class="service-card p-4 border service-card1 shadow"
+            data-aos="fade-right"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
             <div class="card-body">
               <img src={development} width="80px" />
               <h2 className="mt-4 mb-4">Web Application Development</h2>
@@ -29,7 +35,12 @@ const Service = () => {
           </div>
         </div>
         <div class="col">
-          <div class="service-card p-4 border service-card2 shadow" data-aos="fade-down"  data-aos-delay="50" data-aos-duration="1000">
+          <div
+            class="service-card p-4 border service-card2 shadow"
+            data-aos="fade-down"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
             <div class="card-body">
               <img src={projectplan} width="80px" />
               <h2 className="mt-4 mb-4">Project Management</h2>
@@ -42,7 +53,12 @@ const Service = () => {
           </div>
         </div>
         <div class="col">
-          <div class="service-card p-4 border service-card3 shadow" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
+          <div
+            class="service-card p-4 border service-card3 shadow"
+            data-aos="fade-left"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
             <div class="card-body">
               <img src={design} width="80px" />
               <h2 className="mt-4 mb-4">UI/UX prototyping</h2>
@@ -55,7 +71,12 @@ const Service = () => {
           </div>
         </div>
         <div class="col">
-          <div class="service-card p-4 border service-card4 shadow"data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+          <div
+            class="service-card p-4 border service-card4 shadow"
+            data-aos="fade-right"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
             <div class="card-body">
               <img src={apps} width="80px" />
               <h2 className="mt-4 mb-4">Mobile Application development</h2>
@@ -68,7 +89,12 @@ const Service = () => {
           </div>
         </div>
         <div class="col">
-          <div class="service-card p-4 border service-card5 shadow" data-aos="fade-up"  data-aos-delay="50" data-aos-duration="1000">
+          <div
+            class="service-card p-4 border service-card5 shadow"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
             <div class="card-body">
               <img src={quality} width="80px" />
               <h2 className="mt-4 mb-4">Quality Assurance & Testing</h2>
@@ -81,7 +107,12 @@ const Service = () => {
           </div>
         </div>
         <div class="col">
-          <div class="service-card p-4 border service-card6 shadow" data-aos="fade-left"  data-aos-delay="50" data-aos-duration="1000">
+          <div
+            class="service-card p-4 border service-card6 shadow"
+            data-aos="fade-left"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
             <div class="card-body">
               <img src={seo} width="80px" />
               <h2 className="mt-4 mb-4">SEO & Digital Marketing</h2>

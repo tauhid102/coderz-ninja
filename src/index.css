@@ -172,6 +172,23 @@
 .copyBackground p{
   margin: 0;
 }
+.makeUsDiff h2{
+  text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  position: relative;
+}
+.diffBody h4{
+  text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  position: relative;
+}
+.diffBody h4::after{
+  content: '';
+  position: absolute;
+  width: 50px;
+  bottom: -70%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 5px solid red;
+}
 @media (max-width: 991px) {
   .hero-text {
     margin-top: 100px !important;

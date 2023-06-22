@@ -7,7 +7,7 @@ const MakeUsDiff = () => {
     AOS.init();
   }, []);
   return (
-    <div className="container paddingTopBottom">
+    <div className="container paddingTopBottom ">
       <h2 className="text-center">What Makes Us Different</h2>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-5">
         <div
@@ -85,13 +85,11 @@ const MakeUsDiff = () => {
           data-aos-duration="1000"
         >
           <div class="p-4 text-center">
-            <div class="card-body ">
+            <div class="card-body diffBody">
               <img src={development} width="80px" />
-              <div className="">
                 <h4 className="mt-4 mb-4 borderBottom">
                   Web Application Development
                 </h4>
-              </div>
               <p>
                 We listen, understand and guide our clients with their
                 requirements and
