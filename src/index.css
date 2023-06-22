@@ -176,22 +176,88 @@
   text-shadow: 0 2px 5px rgba(0,0,0,0.5);
   position: relative;
 }
-.diffBody h4{
+.headingUnderline h2{
   text-shadow: 0 2px 5px rgba(0,0,0,0.5);
   position: relative;
 }
-.diffBody h4::after{
+.headingUnderline h2::after{
   content: '';
   position: absolute;
   width: 50px;
-  bottom: -70%;
+  bottom: -30%;
   left: 50%;
   transform: translateX(-50%);
-  border-bottom: 5px solid red;
+  border-bottom: 5px solid var(--primary-color);
+}
+.headingUnderline2 h5{
+  position: relative;
+}
+.headingUnderline2 h5::after{
+  content: '';
+  position: absolute;
+  width: 50px;
+  bottom: -110%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 5px solid var(--primary-color);
+}
+.backgroundDiff{
+  background-image: url(./Image/hail.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  bottom: 0;
+  position: relative;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.backgroundDiff2{
+  background-image: url(./Image/perspective.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  bottom: 0;
+  position: relative;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.backgroundDiff3{
+  background-image: url(./Image/tornado.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  bottom: 0;
+  position: relative;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.backgroundDiff4{
+  background-image: url(./Image/qr-code.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  bottom: 0;
+  position: relative;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.backgroundDiff5{
+  background-image: url(./Image/wind.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  bottom: 0;
+  position: relative;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.backgroundDiff6{
+  background-image: url(./Image/wind2.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  bottom: 0;
+  position: relative;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 @media (max-width: 991px) {
   .hero-text {
-    margin-top: 100px !important;
+    margin-top: 10px !important;
     text-align: center;
   }
   .footer{
@@ -204,6 +270,6 @@
 }
 @media (max-width: 914px) {
   .heroFont {
-    font-size: 32px;
+    font-size: 24px;
   }
 }

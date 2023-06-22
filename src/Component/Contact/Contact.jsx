@@ -8,12 +8,8 @@ const Contact = () => {
   }, []);
   return (
     <div className="aboutUs">
-      <div className="container paddingTopBottom">
+      <div className="container paddingTopBottom headingUnderline">
         <h2 className="text-center contactBody">Contact</h2>
-        <p className="text-center">
-          Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro
-          nihil id ratione ea sunt quis dolorem dolore earum
-        </p>
         <div className="row g-4 mt-5" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
           <div class="col-12 col-lg-4 contactLeftBG">
             <div className="insideContact hoverEffect1">
