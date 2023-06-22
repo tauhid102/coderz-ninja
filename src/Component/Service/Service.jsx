@@ -15,13 +15,13 @@ const Service = () => {
     <div className="container paddingTopBottom headingUnderline" id="service">
       <h2 className="text-center">Our Service</h2>
       <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
-        <div
-          class="col"
-          data-aos="fade-right"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-        >
-          <div class="service-card p-4 border service-card1 shadow">
+        <div class="col">
+          <div
+            class="service-card p-4 border service-card1 shadow"
+            // data-aos="fade-right"
+            // data-aos-delay="50"
+            // data-aos-duration="1000"
+          >
             <img src={development} width="40px" />
             <div class="card-body">
               <h3 className="mt-4 mb-4">Web Application Development</h3>
@@ -34,13 +34,13 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div
-          class="col"
-          data-aos="fade-down"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-        >
-          <div class="service-card p-4 border service-card2 shadow">
+        <div class="col">
+          <div
+            class="service-card p-4 border service-card2 shadow"
+            // data-aos="fade-down"
+            // data-aos-delay="50"
+            // data-aos-duration="1000"
+          >
             <img src={projectplan} width="40px" />
             <div class="card-body">
               <h3 className="mt-4 mb-4">Project Management</h3>
@@ -52,13 +52,13 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div
-          class="col"
-          data-aos="fade-left"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-        >
-          <div class="service-card p-4 border service-card3 shadow">
+        <div class="col">
+          <div
+            class="service-card p-4 border service-card3 shadow"
+            // data-aos="fade-left"
+            // data-aos-delay="50"
+            // data-aos-duration="1000"
+          >
             <img src={design} width="40px" />
             <div class="card-body">
               <h3 className="mt-4 mb-4">UI/UX prototyping</h3>
@@ -70,13 +70,13 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div
-          class="col"
-          data-aos="fade-right"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-        >
-          <div class="service-card p-4 border service-card4 shadow">
+        <div class="col">
+          <div
+            class="service-card p-4 border service-card4 shadow"
+            // data-aos="fade-right"
+            // data-aos-delay="50"
+            // data-aos-duration="1000"
+          >
             <img src={apps} width="40px" />
             <div class="card-body">
               <h3 className="mt-4 mb-4">Mobile Application development</h3>
@@ -88,13 +88,13 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div
-          class="col"
-          data-aos="fade-up"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-        >
-          <div class="service-card p-4 border service-card5 shadow">
+        <div class="col">
+          <div
+            class="service-card p-4 border service-card5 shadow"
+            // data-aos="fade-up"
+            // data-aos-delay="50"
+            // data-aos-duration="1000"
+          >
             <img src={quality} width="40px" />
             <div class="card-body ">
               <h3 className="mt-4 mb-4">Quality Assurance & Testing</h3>
@@ -106,13 +106,13 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div
-          class="col "
-          data-aos="fade-left"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-        >
-          <div class="service-card p-4 border service-card6 shadow">
+        <div class="col ">
+          <div
+            class="service-card p-4 border service-card6 shadow"
+            // data-aos="fade-left"
+            // data-aos-delay="50"
+            // data-aos-duration="1000"
+          >
             <img src={seo} width="40px" />
             <div class="card-body">
               <h3 className="mt-4 mb-4">SEO & Digital Marketing</h3>
