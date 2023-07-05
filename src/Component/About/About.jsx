@@ -8,7 +8,8 @@ const About = () => {
   }, []);
   return (
     <div className="aboutUs">
-      <div className="container paddingTopBottom">
+      <div className="container paddingTopBottom headingUnderline">
+      <h2 className="text-center">About Us</h2>
         <div className="row row-cols-1 row-cols-md-2 g-4">
           <div className="col">
             <div
@@ -25,7 +26,7 @@ const About = () => {
               // data-aos-delay="50"
               // data-aos-duration="1000"
             >
-              <h2>We are A Team</h2>
+              <h3>We are A Team</h3>
               <p>
                 Coderz.Ninja is a leading service provider for Software
                 Applications. We provide Custom Software Development for Web,
