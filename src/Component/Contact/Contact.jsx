@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
   useEffect(() => {
@@ -10,7 +10,12 @@ const Contact = () => {
     <div className="aboutUs">
       <div className="container paddingTopBottom headingUnderline">
         <h2 className="text-center contactBody">Contact</h2>
-        <div className="row g-4 mt-5" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+        <div
+          className="row g-4 mt-5"
+          // data-aos="fade-up"
+          // data-aos-delay="50"
+          // data-aos-duration="1000"
+        >
           <div class="col-12 col-lg-4 contactLeftBG">
             <div className="insideContact hoverEffect1">
               <div className="">
@@ -52,7 +57,12 @@ const Contact = () => {
           <div class="col-12 col-lg-8 p-5 contactFrom">
             <form class="row g-3">
               <div class="col-md-6">
-                <input type="text" class="form-control" id="inputEmail4"  placeholder="Your Name"/>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="Your Name"
+                />
               </div>
               <div class="col-md-6">
                 <input
@@ -76,7 +86,7 @@ const Contact = () => {
                   class="form-control"
                   id="inputAddress2"
                   placeholder="Message"
-                  rows='6'
+                  rows="6"
                 />
               </div>
               <div class="col-12 d-flex align-center">

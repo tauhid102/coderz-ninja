@@ -13,9 +13,9 @@ const MakeUsDiff = () => {
       <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
         <div class="col">
           <div
-            data-aos="fade-right"
-            data-aos-delay="50"
-            data-aos-duration="1000"
+            // data-aos="fade-right"
+            // data-aos-delay="50"
+            // data-aos-duration="1000"
           >
             <div class="text-center p-4 backgroundDiff">
               <img src={development} width="80px" className="mx-auto" />
@@ -33,9 +33,9 @@ const MakeUsDiff = () => {
         </div>
         <div class="col ">
           <div
-            data-aos="fade-down"
-            data-aos-delay="50"
-            data-aos-duration="1000"
+            // data-aos="fade-down"
+            // data-aos-delay="50"
+            // data-aos-duration="1000"
           >
             <div class="text-center p-4 backgroundDiff2">
               <img src={development} width="80px" className="mx-auto" />
@@ -53,9 +53,9 @@ const MakeUsDiff = () => {
         </div>
         <div class="col ">
           <div
-            data-aos="fade-left"
-            data-aos-delay="50"
-            data-aos-duration="1000"
+            // data-aos="fade-left"
+            // data-aos-delay="50"
+            // data-aos-duration="1000"
           >
             <div class="text-center p-4 backgroundDiff3">
               <img src={development} width="80px" className="mx-auto" />
@@ -73,9 +73,9 @@ const MakeUsDiff = () => {
         </div>
         <div class="col ">
           <div
-            data-aos="fade-right"
-            data-aos-delay="50"
-            data-aos-duration="1000"
+            // data-aos="fade-right"
+            // data-aos-delay="50"
+            // data-aos-duration="1000"
           >
             <div class="text-center p-4 backgroundDiff4">
               <img src={development} width="80px" className="mx-auto" />
