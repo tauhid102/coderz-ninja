@@ -10,23 +10,27 @@ import Contact from "./Component/Contact/Contact";
 import Footer from "./Component/Footer/Footer";
 import Copy from "./Component/Copy/Copy";
 import OurSkill from "./Component/OurSkill/OurSkill";
+import TestHeader from "./Component/Header/TestHeader";
+import Testimonial from "./Component/Testimonial/Testimonial";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      {/* <TestHeader/> */}
       <div className="background-image">
         <Header />
         <Hero />
       </div>
-      <Service/>
-      <About/>
-      <OurSkill/>
-      <MakeUsDiff/>
-      <Contact/>
-      <Footer/>
-      <Copy/>
+      <Service />
+      <About />
+      <OurSkill />
+      <Testimonial />
+      <MakeUsDiff />
+      <Contact />
+      <Footer />
+      <Copy />
     </>
   );
 }
