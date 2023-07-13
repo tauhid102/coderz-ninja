@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import quality from "../../Image/quality-badge.png";
@@ -12,10 +12,14 @@ const Testimonial = () => {
         <Swiper
           slidesPerView={"auto"}
           spaceBetween={30}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           pagination={{
             clickable: true,
           }}
-          modules={[Pagination]}
+          modules={[Autoplay,Pagination]}
           className="mySwiper mt-5"
         >
           <SwiperSlide>
