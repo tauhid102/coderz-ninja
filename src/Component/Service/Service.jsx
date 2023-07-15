@@ -22,7 +22,7 @@ const Service = () => {
             // data-aos-delay="50"
             // data-aos-duration="1000"
           >
-            <img src={development} width="40px" />
+            <img src={development} width="60px" />
             <div class="card-body">
               <h3 className="mt-4 mb-4">Web Application Development</h3>
               <p class="card-text">
@@ -41,7 +41,7 @@ const Service = () => {
             // data-aos-delay="50"
             // data-aos-duration="1000"
           >
-            <img src={projectplan} width="40px" />
+            <img src={projectplan} width="60px" />
             <div class="card-body">
               <h3 className="mt-4 mb-4">Project Management</h3>
               <p>
@@ -59,7 +59,7 @@ const Service = () => {
             // data-aos-delay="50"
             // data-aos-duration="1000"
           >
-            <img src={design} width="40px" />
+            <img src={design} width="60px" />
             <div class="card-body">
               <h3 className="mt-4 mb-4">UI/UX prototyping</h3>
               <p>
@@ -77,7 +77,7 @@ const Service = () => {
             // data-aos-delay="50"
             // data-aos-duration="1000"
           >
-            <img src={apps} width="40px" />
+            <img src={apps} width="60px" />
             <div class="card-body">
               <h3 className="mt-4 mb-4">Mobile Application development</h3>
               <p>
@@ -95,7 +95,7 @@ const Service = () => {
             // data-aos-delay="50"
             // data-aos-duration="1000"
           >
-            <img src={quality} width="40px" />
+            <img src={quality} width="60px" />
             <div class="card-body ">
               <h3 className="mt-4 mb-4">Quality Assurance & Testing</h3>
               <p>
@@ -113,7 +113,7 @@ const Service = () => {
             // data-aos-delay="50"
             // data-aos-duration="1000"
           >
-            <img src={seo} width="40px" />
+            <img src={seo} width="60px" />
             <div class="card-body">
               <h3 className="mt-4 mb-4">SEO & Digital Marketing</h3>
               <p>

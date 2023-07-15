@@ -12,6 +12,7 @@ import Copy from "./Component/Copy/Copy";
 import OurSkill from "./Component/OurSkill/OurSkill";
 import TestHeader from "./Component/Header/TestHeader";
 import Testimonial from "./Component/Testimonial/Testimonial";
+import SlickTestimonial from "./Component/SlickTestimonial/SlickTestimonial";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,6 +28,7 @@ function App() {
       <About />
       <OurSkill />
       <Testimonial />
+      <SlickTestimonial/>
       <MakeUsDiff />
       <Contact />
       <Footer />

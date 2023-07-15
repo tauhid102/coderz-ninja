@@ -16,86 +16,83 @@ const Testimonial = () => {
             delay: 2500,
             disableOnInteraction: false,
           }}
-          pagination={{
-            clickable: true,
-          }}
           modules={[Autoplay,Pagination]}
           className="mySwiper mt-5"
         >
           <SwiperSlide>
-            <div class="testimonial">
-              <img src={quality} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text ">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+            <div id="content">
+              <div class="testimonial">
+                <blockquote>
+                  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+                </blockquote>
+                <div></div>
+                <p>
+                  John Doe &mdash; Worcestershire, UK
                 </p>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="testimonial">
-              <img src={quality} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text ">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+            <div id="content">
+              <div class="testimonial">
+                <blockquote>
+                  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+                </blockquote>
+                <div></div>
+                <p>
+                  John Doe &mdash; Worcestershire, UK
                 </p>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="testimonial">
-              <img src={quality} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text ">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+            <div id="content">
+              <div class="testimonial">
+                <blockquote>
+                  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+                </blockquote>
+                <div></div>
+                <p>
+                  John Doe &mdash; Worcestershire, UK
                 </p>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="testimonial">
-              <img src={quality} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text ">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+            <div id="content">
+              <div class="testimonial">
+                <blockquote>
+                  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+                </blockquote>
+                <div></div>
+                <p>
+                  John Doe &mdash; Worcestershire, UK
                 </p>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="testimonial">
-              <img src={quality} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text ">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+            <div id="content">
+              <div class="testimonial">
+                <blockquote>
+                  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+                </blockquote>
+                <div></div>
+                <p>
+                  John Doe &mdash; Worcestershire, UK
                 </p>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="testimonial">
-              <img src={quality} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text ">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+            <div id="content">
+              <div class="testimonial">
+                <blockquote>
+                  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+                </blockquote>
+                <div></div>
+                <p>
+                  John Doe &mdash; Worcestershire, UK
                 </p>
               </div>
             </div>

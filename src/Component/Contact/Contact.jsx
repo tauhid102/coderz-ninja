@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 const Contact = () => {
   useEffect(() => {
     AOS.init();
@@ -55,7 +54,7 @@ const Contact = () => {
             </div>
           </div>
           <div class="col-12 col-lg-8 p-5 contactFrom">
-            <form class="row g-3">
+            <form class="row g-3 mt-3">
               <div class="col-md-6">
                 <input
                   type="text"

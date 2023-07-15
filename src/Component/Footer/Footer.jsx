@@ -1,4 +1,6 @@
 import React from "react";
+import { BsFacebook, BsLinkedin } from "react-icons/bs";
+import { GrTwitter, GrInstagram } from "react-icons/gr";
 
 const Footer = () => {
   return (
@@ -6,7 +8,7 @@ const Footer = () => {
       <div className="container paddingTopBottom">
         <div class="row">
           <div class="col-12 col-md-4 d-flex align-items-center">
-            <h3>Lets Bring Your Big Issue into a Bright Idea</h3>
+            <h4>CoderzNinja - Redefine Your Business with Technology</h4>
           </div>
           <div class="col-12 col-md-3 section">
             <h3>Company</h3>
@@ -37,15 +39,40 @@ const Footer = () => {
           </div>
           <div class="col-12 col-md-2 section">
             <h3>Follow Us</h3>
-            <ul className="footerList">
-              <li> <a target="_blank" href="https://www.facebook.com/coderz.ninja">Facebook</a></li>
-              <li> <a target="_blank" href="https://twitter.com/coderz_ninja">Twitter</a></li>
-              <li> <a target="_blank" href="https://www.instagram.com/coderz.ninja/">Instagram</a></li>
-              <li> <a target="_blank" href="https://www.linkedin.com/company/coderz-ninja/">Linkedin</a></li>
+            <ul className="footerList  social">
+              <li>
+                {" "}
+                <a target="_blank" href="https://www.facebook.com/coderz.ninja">
+                  <BsFacebook />
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a target="_blank" href="https://twitter.com/coderz_ninja">
+                  <GrTwitter />
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/coderz.ninja/"
+                >
+                  <GrInstagram />
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/company/coderz-ninja/"
+                >
+                  <BsLinkedin />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
-      
       </div>
     </div>
   );
