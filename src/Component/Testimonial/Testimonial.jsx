@@ -5,8 +5,28 @@ import "swiper/css";
 import "swiper/css/pagination";
 import quality from "../../Image/quality-badge.png";
 const Testimonial = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+ 
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 991); // Adjust the breakpoint as needed
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    handleResize(); // Initialize the isMobile state on component mount
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const skillStyle = {
+    width: isMobile ? '95%' : "100%",
+  };
   return (
-    <div className="aboutUs">
+    <div className="aboutUs" style={skillStyle}>
       <div className="container paddingTopBottom headingUnderline">
         <h2 className="text-center">Testimonial</h2>
         <Swiper

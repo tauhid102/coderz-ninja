@@ -1,9 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const SlickTestimonial = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+ 
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 991); // Adjust the breakpoint as needed
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    handleResize(); // Initialize the isMobile state on component mount
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const skillStyle = {
+    width: isMobile ? '95%' : "100%",
+  };
   const settings = {
     className: "center",
     centerMode: true,
@@ -16,7 +36,7 @@ const SlickTestimonial = () => {
     autoplaySpeed: 3000,
   };
   return (
-    <div className="aboutUs container-fluid">
+    <div className="aboutUs container-fluid " style={skillStyle}>
       <div className="container paddingTopBottom headingUnderline">
         <h2 className="text-center mb-5">Testimonial</h2>
         <Slider {...settings}>

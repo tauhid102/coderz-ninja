@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import icon1 from "../../Image/skill/html.png";
 import icon2 from "../../Image/skill/css.png";
@@ -9,6 +9,26 @@ import icon6 from "../../Image/skill/tailwind.png";
 import icon7 from "../../Image/skill/mongodb.png";
 import icon8 from "../../Image/skill/figma.png";
 const OurSkill = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+ 
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 991); // Adjust the breakpoint as needed
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    handleResize(); // Initialize the isMobile state on component mount
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const skillStyle = {
+    width: isMobile ? '95%' : "100%",
+  };
   const settings = {
     dots: true,
     infinite: true,
@@ -20,7 +40,7 @@ const OurSkill = () => {
     cssEase: "linear"
   };
   return (
-    <div className="container-fluid">
+    <div className="container-fluid " style={skillStyle}>
       <div className="container paddingTopBottom headingUnderline">
         <h2 className="text-center">Our Skill</h2>
         <div className="">
