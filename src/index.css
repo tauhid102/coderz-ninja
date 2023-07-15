@@ -35,7 +35,7 @@
 }
 
 .background-image {
-  background-image: url(../../public/Image/home-bg.jpeg);
+  background-image: url(../src/Image/home-bg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -247,7 +247,7 @@ ul.footerList.social li:hover {
 }
 
 .backgroundDiff {
-  background-image: url(../../public/Image/hail.png);
+  background-image: url(../src/Image/hail.png);
   background-repeat: no-repeat;
   background-size: 100px;
   bottom: 0;
@@ -257,7 +257,7 @@ ul.footerList.social li:hover {
 }
 
 .backgroundDiff2 {
-  background-image: url(../../public/Image/perspective.png);
+  background-image: url(../src/Image/perspective.png);
   background-repeat: no-repeat;
   background-size: 100px;
   bottom: 0;
@@ -267,7 +267,7 @@ ul.footerList.social li:hover {
 }
 
 .backgroundDiff3 {
-  background-image: url(../../public/Image/tornado.png);
+  background-image: url(../src/Image/tornado.png);
   background-repeat: no-repeat;
   background-size: 100px;
   bottom: 0;
@@ -277,7 +277,7 @@ ul.footerList.social li:hover {
 }
 
 .backgroundDiff4 {
-  background-image: url(../../public/Image/qr-code.png);
+  background-image: url(../src/Image/qr-code.png);
   background-repeat: no-repeat;
   background-size: 100px;
   bottom: 0;
@@ -287,7 +287,7 @@ ul.footerList.social li:hover {
 }
 
 .backgroundDiff5 {
-  background-image: url(../../public/Image/wind.png);
+  background-image: url(../src/Image/wind.png);
   background-repeat: no-repeat;
   background-size: 100px;
   bottom: 0;
@@ -297,7 +297,7 @@ ul.footerList.social li:hover {
 }
 
 .backgroundDiff6 {
-  background-image: url(../../public/Image/wind2.png);
+  background-image: url(../src/Image/wind2.png);
   background-repeat: no-repeat;
   background-size: 100px;
   bottom: 0;
