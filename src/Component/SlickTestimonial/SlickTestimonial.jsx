@@ -16,7 +16,7 @@ const SlickTestimonial = () => {
     autoplaySpeed: 3000,
   };
   return (
-    <div className="aboutUs">
+    <div className="aboutUs container-fluid">
       <div className="container paddingTopBottom headingUnderline">
         <h2 className="text-center mb-5">Testimonial</h2>
         <Slider {...settings}>

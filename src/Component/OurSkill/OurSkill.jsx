@@ -20,7 +20,7 @@ const OurSkill = () => {
     cssEase: "linear"
   };
   return (
-    <div className="">
+    <div className="container-fluid">
       <div className="container paddingTopBottom headingUnderline">
         <h2 className="text-center">Our Skill</h2>
         <div className="">
