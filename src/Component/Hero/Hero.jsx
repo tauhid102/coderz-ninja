@@ -1,8 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import image from "../../Image/heroImage.png";
 const Hero = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+ 
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 991); // Adjust the breakpoint as needed
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    handleResize(); // Initialize the isMobile state on component mount
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const heroStyle = {
+    marginTop: isMobile ? '50px' : 0,
+  };
   return (
-    <div className="container hero-section" id="home">
+    <div className="container hero-section" id="home" style={heroStyle}>
       <div className="row">
         <div className="col-12 col-md-12 col-lg-6 hero-text">
           <div className="">

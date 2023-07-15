@@ -479,6 +479,9 @@ figure.snip1157 .author span {
     margin-top: 20px !important;
     border-bottom: 1px solid var(--primary-color);
   }
+  .forMobile{
+    background-color: '#f8f9fa' !important;
+  }
 
   .displayNone {
     display: none;
