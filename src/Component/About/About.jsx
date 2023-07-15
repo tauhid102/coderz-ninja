@@ -8,7 +8,7 @@ const About = () => {
     AOS.init();
   }, []);
   return (
-    <div className="aboutUs">
+    <div className="aboutUs" id="about">
       <div className="container paddingTopBottom headingUnderline">
         <h2 className="text-center">About Us</h2>
         <div className="row row-cols-1 row-cols-md-2 g-4">

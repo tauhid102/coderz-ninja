@@ -6,7 +6,7 @@ const Contact = () => {
     AOS.init();
   }, []);
   return (
-    <div className="aboutUs">
+    <div className="aboutUs" id="contact">
       <div className="container paddingTopBottom headingUnderline">
         <h2 className="text-center contactBody">Contact</h2>
         <div

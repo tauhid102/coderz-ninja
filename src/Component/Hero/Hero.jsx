@@ -2,7 +2,7 @@ import React from "react";
 import image from "../../Image/heroImage.png";
 const Hero = () => {
   return (
-    <div className="container hero-section">
+    <div className="container hero-section" id="home">
       <div className="row">
         <div className="col-12 col-md-12 col-lg-6 hero-text">
           <div className="">
