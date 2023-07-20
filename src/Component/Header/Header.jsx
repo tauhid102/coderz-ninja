@@ -62,19 +62,19 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link className="fw-bold" href="#home">
+              <Nav.Link className="fw-bold btn2 btn-border-underline" href="#home">
                 Home
               </Nav.Link>
-              <Nav.Link className="fw-bold" href="#service">
+              <Nav.Link className="fw-bold btn2 btn-border-underline" href="#service">
                 Service
               </Nav.Link>
-              <Nav.Link className="fw-bold" href="#about">
+              <Nav.Link className="fw-bold btn2 btn-border-underline" href="#about">
                 About
               </Nav.Link>
-              <Nav.Link className="fw-bold" href="#contact">
+              <Nav.Link className="fw-bold btn2 btn-border-underline" href="#contact">
                 Contact
               </Nav.Link>
-              <Nav.Link className="fw-bold" href="#career">
+              <Nav.Link className="fw-bold btn2 btn-border-underline" href="#career">
                 Career
               </Nav.Link>
             </Nav>

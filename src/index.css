@@ -92,17 +92,17 @@
 .aboutUs {
   background-color: #fbf8f1;
 }
-.aboutusList li{
+.aboutusList li {
   list-style: none;
   display: flex;
   align-items: center;
   margin-bottom: 5px;
 }
-.aboutusList li p{
+.aboutusList li p {
   margin-bottom: 0px;
   padding-left: 8px;
 }
-.aboutusList img{
+.aboutusList img {
   width: 14px;
   transform: rotate(3.142rad);
 }
@@ -164,15 +164,16 @@
   border-radius: 0px 10px 10px 0px;
 }
 
-.contactButton {
+/* .contactButton {
   background-color: var(--primary-color);
   border: none;
   color: white;
-  padding: 10px 20px;
-  border-radius: 40px;
   transform: 0.7s;
   text-align: center;
-}
+  cursor: pointer;
+  transition: color 0.4s linear;
+  position: relative;
+} */
 .contactButtonDisabled {
   border: none;
   color: white;
@@ -182,9 +183,96 @@
   text-align: center;
 }
 
-.contactButton:hover {
-  background-color: var(--hover-color);
-  /* background-color: #0071F2; */
+/* .contactButton:hover { */
+/* background-color: var(--hover-color); */
+/* background-color: #0071F2; */
+/* } */
+.btn2 {
+  background-color: var(--background-color);
+  color: #222;
+  /* padding: 0.5em 1em; */
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  --background-color: #e3e3e300;
+  --border-size: 2px;
+  --accent-color: #0af;
+}
+.btn2.btn-border-underline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--border-size);
+  background-color: var(--accent-color);
+  transition: transform 300ms ease-in-out;
+
+  transform: scaleX(0);
+}
+
+.btn2.btn-border-underline:hover::before,
+.btn2.btn-border-underline:focus::before {
+  transform: scaleX(1);
+}
+
+.contactButton {
+  background-color: var(--background-color);
+  color: #222;
+  /* padding: 0.5em 1em; */
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+
+  padding: 10px 20px;
+  --background-color: #e3e3e3;
+  --border-size: 2px;
+  --accent-color: #0af;
+}
+.contactButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #000;
+
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.contactButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color: var(--accent-color);
+
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.contactButton:hover::before,
+.contactButton:focus::before {
+  transform: scaleX(1);
+}
+
+.contactButton {
+  transition: color 300ms ease-in-out;
+  z-index: 1;
+}
+
+.contactButton:hover,
+.contactButton:focus {
+  color: white;
 }
 
 .footer {
@@ -340,7 +428,7 @@ img.iconBackground:hover {
 }
 
 .svg-container::before {
-  content: url('../src/Image/common/underLine.svg');
+  content: url("../src/Image/common/underLine.svg");
   /* Additional CSS properties for the pseudo-element */
   position: absolute;
   top: 130%;
