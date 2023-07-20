@@ -6,11 +6,11 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="container paddingTopBottom">
-        <div class="row">
-          <div class="col-12 col-md-4 d-flex align-items-center">
+        <div className="row">
+          <div className="col-12 col-md-4 d-flex align-items-center">
             <h4>CoderzNinja - Redefine Your Business with Technology</h4>
           </div>
-          <div class="col-12 col-md-3 section">
+          <div className="col-12 col-md-3 section">
             <h3>Company</h3>
             <ul className="footerList">
               <li>
@@ -27,7 +27,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div class="col-12 col-md-3 section">
+          <div className="col-12 col-md-3 section">
             <h3>Services</h3>
             <ul className="footerList">
               <li>Web Application Development</li>
@@ -37,7 +37,7 @@ const Footer = () => {
               <li>SEO & Digital Marketing</li>
             </ul>
           </div>
-          <div class="col-12 col-md-2 section">
+          <div className="col-12 col-md-2 section">
             <h3>Follow Us</h3>
             <ul className="footerList  social">
               <li>

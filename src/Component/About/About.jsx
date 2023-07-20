@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import team from "../../Image/team.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import icon from "../../Image/contactIcon.svg";
+import team from "../../Image/common/team.png";
+import icon from "../../Image/common/contactIcon.svg";
 const About = () => {
   useEffect(() => {
     AOS.init();
@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div className="aboutUs" id="about">
       <div className="container paddingTopBottom headingUnderline">
-        <h2 className="text-center">About Us</h2>
+        <h2 className="text-center svg-container">About Us</h2>
         <div className="row row-cols-1 row-cols-md-2 g-4">
           <div className="col">
             <div
@@ -29,32 +29,30 @@ const About = () => {
             >
               <h3>We are A Team</h3>
               <p>
-                Coderz.Ninja is a leading service provider for Software
-                Applications. We provide Custom Software Development for Web,
-                Mobile and Cloud services. We provide industry standard SQA
-                services, which ensures top quality products. We have a mix of
-                experienced and fresh minds to steer our products towards
-                excellence.
+                Coderz.Ninja, your premier destination for cutting-edge Software
+                Applications. We are one of the leading IT services provider and
+                we specialize in Custom Software Development, catering to Web,
+                Mobile, and Cloud services. With a focus on delivering top-tier
+                quality products, our industry-standard SQA services guarantee
+                solutions that exceed your expectations.
               </p>
-              <ul>
+              <ul className="aboutusList">
                 <li>
-                  <img src={icon} alt="" />Coderz.Ninja is a leading service
-                  provider for Software Applications.
+                  <img src={icon} alt="" />
+                  <p>Dynamic team of creative, experienced and fresh individuals.</p>
                 </li>
                 <li>
                   <img src={icon} alt="" />
-                  Coderz.Ninja is a leading service provider for Software
-                  Applications.
+                  <p>With a passion for user-centric design, we create intuitive
+                  and user-friendly.</p>
                 </li>
                 <li>
                   <img src={icon} alt="" />
-                  Coderz.Ninja is a leading service provider for Software
-                  Applications.
+                  <p>There is absolutely no compromise when it comes to quality.</p>
                 </li>
                 <li>
                   <img src={icon} alt="" />
-                  Coderz.Ninja is a leading service provider for Software
-                  Applications.
+                  <p>Domain Experience of various industries.</p>
                 </li>
               </ul>
             </div>

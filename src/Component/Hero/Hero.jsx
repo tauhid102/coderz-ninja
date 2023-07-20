@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import image from "../../Image/heroImage.png";
+import image from "../../Image/common/heroImage.png";
 const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
 

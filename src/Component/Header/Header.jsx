@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import logo from "../../Image/logo.png";
+import logo from "../../Image/common/logo.png";
 const Header = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [navbarColor, setNavbarColor] = useState('transparent');
