@@ -92,20 +92,24 @@
 .aboutUs {
   background-color: #fbf8f1;
 }
+
 .aboutusList li {
   list-style: none;
   display: flex;
   align-items: center;
   margin-bottom: 5px;
 }
+
 .aboutusList li p {
   margin-bottom: 0px;
   padding-left: 8px;
 }
+
 .aboutusList img {
   width: 14px;
   transform: rotate(3.142rad);
 }
+
 .contactLeftBG {
   background-color: #0071f2;
   border-radius: 10px 0 0px 10px;
@@ -133,6 +137,7 @@
 .icon svg {
   margin-top: -5px;
 }
+
 .icon-bg {
   background-color: #95978552;
   color: #3929bb;
@@ -199,6 +204,7 @@
   --border-size: 2px;
   --accent-color: #0af;
 }
+
 .btn2.btn-border-underline::before {
   content: '';
   position: absolute;
@@ -231,6 +237,7 @@
   --border-size: 2px;
   --accent-color: #0af;
 }
+
 .contactButton::before {
   content: "";
   position: absolute;
@@ -245,6 +252,7 @@
   transform: scaleX(0);
   transform-origin: left;
 }
+
 .contactButton::before {
   content: "";
   position: absolute;
@@ -285,17 +293,21 @@
   margin: 0;
   padding: 0;
 }
+
 .footerList li {
   margin-bottom: 5px;
 }
+
 .footerList a {
   text-decoration: none;
   color: white;
 }
+
 ul.footerList.social {
   display: flex;
   justify-content: space-around;
 }
+
 ul.footerList.social li {
   border: 1px solid white;
   padding: 8px 12px;
@@ -303,9 +315,11 @@ ul.footerList.social li {
   margin-right: 5px;
   background-color: var(--primary-color);
 }
+
 ul.footerList.social li:hover {
   cursor: pointer;
 }
+
 .footerList a:hover {
   cursor: pointer;
   color: #ffffff;
@@ -423,6 +437,7 @@ img.iconBackground:hover {
   background-color: #ffffff;
   cursor: pointer;
 }
+
 .svg-container {
   position: relative;
 }
@@ -438,6 +453,7 @@ img.iconBackground:hover {
   width: 100%;
   /* height: 100px; */
 }
+
 /* testimonial css */
 .swiper {
   width: 100%;
@@ -578,6 +594,37 @@ figure.snip1157 .author span {
   text-transform: none;
 }
 
+.careenSection {
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+
+.careerHero {
+  background-image: url(../src/Image/common/career.jpg);
+  background-repeat: no-repeat;
+  background-position: fixed;
+  /* background-size: 100% 400px; */
+  background-attachment: fixed;
+  /* background-size: cover; */
+  margin: 50px 0;
+  height: 410px;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 999;
+}
+.text {
+  /* margin-top: 40%; */
+  background-color: rgba(0,0,0,0.5);
+  height: 410px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 72px;
+  text-align: center;
+}
+.careerWraper p{
+ font-weight: 600;
+}
 @media (max-width: 991px) {
   .hero-text {
     margin-top: 10px !important;
@@ -596,10 +643,9 @@ figure.snip1157 .author span {
   .displayNone {
     display: none;
   }
-
-  /* .iconBackground{
-    width: 30%;
-  } */
+  .text {
+    font-size: 42px;
+  }
 }
 
 @media (max-width: 914px) {

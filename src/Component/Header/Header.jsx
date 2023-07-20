@@ -4,11 +4,17 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../../Image/common/logo.png";
+import { Link, useLocation } from "react-router-dom";
 const Header = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [navbarColor, setNavbarColor] = useState('transparent');
   const [isMobile, setIsMobile] = useState(false);
+  const [hideMenu, setHideMenu] = useState(true);
+  const location = useLocation();
+  const careerPath = location.pathname === '/career' ? 'developer' : 'non-developer';
 
+  const showAboutAndServiceMenu = careerPath === 'non-developer';
+  console.log(location)
   useEffect(() => {
     const handleScroll = () => {
       const position = window.scrollY;
@@ -40,7 +46,7 @@ const Header = () => {
     top: 0,
     left: 0,
     width: '100%',
-    backgroundColor: isMobile ? '#f8f9fa' : (scrollPosition >= 100 ? '#f8f9fa' : navbarColor),
+    backgroundColor: isMobile ? '#f8f9fa' : (scrollPosition >= 0 ? '#f8f9fa' : navbarColor),
     transition: 'background-color 0.3s ease-in-out',
     zIndex: 999,
     marginBottom: isMobile ? '500px' : 0,
@@ -62,19 +68,19 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link className="fw-bold btn2 btn-border-underline" href="#home">
+              <Nav.Link as={Link} to='/' className="fw-bold btn2 btn-border-underline" href="#home">
                 Home
               </Nav.Link>
-              <Nav.Link className="fw-bold btn2 btn-border-underline" href="#service">
+              {showAboutAndServiceMenu && <Nav.Link className="fw-bold btn2 btn-border-underline" href="#service">
                 Service
-              </Nav.Link>
-              <Nav.Link className="fw-bold btn2 btn-border-underline" href="#about">
+              </Nav.Link>}
+              {showAboutAndServiceMenu && <Nav.Link className="fw-bold btn2 btn-border-underline" href="#about">
                 About
-              </Nav.Link>
-              <Nav.Link className="fw-bold btn2 btn-border-underline" href="#contact">
+              </Nav.Link>}
+              {showAboutAndServiceMenu && <Nav.Link className="fw-bold btn2 btn-border-underline" href="#contact">
                 Contact
-              </Nav.Link>
-              <Nav.Link className="fw-bold btn2 btn-border-underline" href="#career">
+              </Nav.Link>}
+              <Nav.Link as={Link} to='/career' className="fw-bold btn2 btn-border-underline" href="#career">
                 Career
               </Nav.Link>
             </Nav>
