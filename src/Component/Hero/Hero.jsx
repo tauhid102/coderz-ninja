@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import image from "../../Image/common/heroImage.png";
+import ScrollToTop from "../ScrollToTop/ScrollToTop";
 const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -42,6 +43,7 @@ const Hero = () => {
           <img src={image} width="100%" height="auto " alt="Hero image" />
         </div>
       </div>
+      <ScrollToTop/>
     </div>
   );
 };

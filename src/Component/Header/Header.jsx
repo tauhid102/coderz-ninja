@@ -46,7 +46,7 @@ const Header = () => {
     top: 0,
     left: 0,
     width: '100%',
-    backgroundColor: isMobile ? '#f8f9fa' : (scrollPosition >= 0 ? '#f8f9fa' : navbarColor),
+    backgroundColor: isMobile ? '#f8f9fa' : (scrollPosition > 0 ? '#f8f9fa' : navbarColor),
     transition: 'background-color 0.3s ease-in-out',
     zIndex: 999,
     marginBottom: isMobile ? '500px' : 0,
