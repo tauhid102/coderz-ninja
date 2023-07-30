@@ -85,7 +85,7 @@ const SlickTestimonial = () => {
             <figure className="snip1157" id="content">
               <div className="testimonial">
                 <blockquote>
-                  We value our relationship with Mindfire. They've proven
+                  We value our relationship with Coderz Ninja. They've proven
                   themselves to be capable and willing partners in numerous
                   development projects, and their ability to code in many
                   environments gives us the confidence that we'll be able to

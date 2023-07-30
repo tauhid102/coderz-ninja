@@ -415,15 +415,16 @@
   background-position-y: bottom;
 }
 
-img.iconBackground {
-  border: 4px solid #fffbc1;
+.iconBackground {
   background-color: #fffbc1;
-  border-radius: 50%;
-  padding: 8px;
+  border: 4px solid #fffbc1;
   transition: 0.5s;
+  border-radius: 50%;
+  width: 130px; 
+  height: 130px;
 }
 
-img.iconBackground:hover {
+.iconBackground:hover {
   border: 4px solid #fffbc1;
   background-color: #ffffff;
   cursor: pointer;
