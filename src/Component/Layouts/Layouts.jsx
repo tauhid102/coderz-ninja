@@ -15,7 +15,7 @@ const Layouts = () => {
         <>
         <div className="background-image">
           <Header />
-          <Hero />
+          <Hero/>
         </div>
         <Service />
         <About />

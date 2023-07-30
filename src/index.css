@@ -48,7 +48,7 @@
 }
 
 .hero-section {
-  padding: 50px 0px;
+  padding: 100px 0px;
 }
 
 .paddingTopBottom {
@@ -195,7 +195,6 @@
 .btn2 {
   background-color: var(--background-color);
   color: #222;
-  /* padding: 0.5em 1em; */
   border: none;
   outline: none;
   position: relative;
@@ -203,6 +202,7 @@
   --background-color: #e3e3e300;
   --border-size: 2px;
   --accent-color: #0af;
+  margin-left: 30px;
 }
 
 .btn2.btn-border-underline::before {
