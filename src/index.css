@@ -142,6 +142,7 @@
   color: white;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .insideContact .icon {
@@ -168,6 +169,7 @@
 .hoverEffect:hover .icon {
   color: #0071f2;
   background-color: white;
+  cursor: pointer;
 }
 
 .contactText {
