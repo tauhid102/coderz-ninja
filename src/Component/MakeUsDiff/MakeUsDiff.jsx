@@ -22,7 +22,7 @@ const MakeUsDiff = () => {
           // data-aos-delay="50"
           // data-aos-duration="1000"
           >
-            <div className="text-center p-4 backgroundDiff">
+            <div className="makeDiffCard text-center p-4 backgroundDiff">
               {/* <img
                 src='/Image/common/development.png'
                 width='80px'
@@ -48,7 +48,7 @@ const MakeUsDiff = () => {
           // data-aos-delay="50"
           // data-aos-duration="1000"
           >
-            <div className="text-center p-4 backgroundDiff2">
+            <div className="makeDiffCard text-center p-4 backgroundDiff2">
               {/* <img
                 src='/Image/common/development.png'
                 width='80px'
@@ -74,7 +74,7 @@ const MakeUsDiff = () => {
           // data-aos-delay="50"
           // data-aos-duration="1000"
           >
-            <div className="text-center p-4 backgroundDiff3">
+            <div className="makeDiffCard text-center p-4 backgroundDiff3">
               {/* <img
                 src='/Image/common/development.png'
                 width='80px'
@@ -100,7 +100,7 @@ const MakeUsDiff = () => {
           // data-aos-delay="50"
           // data-aos-duration="1000"
           >
-            <div className="text-center p-4 backgroundDiff4">
+            <div className="makeDiffCard text-center p-4 backgroundDiff4">
               {/* <img
                 src='/Image/common/development.png'
                 width='80px'
@@ -126,7 +126,7 @@ const MakeUsDiff = () => {
           // data-aos-delay="50"
           // data-aos-duration="1000"
         >
-          <div className="text-center p-4 backgroundDiff5">
+          <div className="makeDiffCard text-center p-4 backgroundDiff5">
             {/* <img
               src='/Image/common/development.png'
               width='80px'
@@ -151,7 +151,7 @@ const MakeUsDiff = () => {
           // data-aos-delay="50"
           // data-aos-duration="1000"
         >
-          <div className="text-center p-4 backgroundDiff6">
+          <div className="makeDiffCard text-center p-4 backgroundDiff6">
             {/* <img
               src='/Image/common/development.png'
               width='80px'
