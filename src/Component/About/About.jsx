@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import team from "../../Image/common/team.png";
-import icon from "../../Image/common/contactIcon.svg";
+import icon from "../../Image/common/pencil.svg";
 const About = () => {
   useEffect(() => {
     AOS.init();
@@ -29,7 +29,7 @@ const About = () => {
             >
               <h3>We are A Team</h3>
               <p>
-                Coderz.Ninja, your premier destination for cutting-edge Software
+               <span className="heroFont-color">Coderz Ninja,</span> your premier destination for cutting-edge Software
                 Applications. We are one of the leading IT services provider and
                 we specialize in Custom Software Development, catering to Web,
                 Mobile, and Cloud services. With a focus on delivering top-tier

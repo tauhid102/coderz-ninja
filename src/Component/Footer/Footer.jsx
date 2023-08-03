@@ -8,37 +8,37 @@ const Footer = () => {
       <div className="container paddingTopBottom">
         <div className="row">
           <div className="col-12 col-md-4 d-flex align-items-center">
-            <h4>CoderzNinja - Redefine Your Business with Technology</h4>
+            <h4><span className="heroFont-color">Coderz Ninja</span> - Redefine Your Business with Technology</h4>
           </div>
           <div className="col-12 col-md-2 section">
             <h3>Company</h3>
             <ul className="footerList">
               <li>
-                <a href="#home">Home</a>
+                <a href="#home" className="footerLink btn2 btn-border-underline">Home</a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#about" className="footerLink btn2 btn-border-underline">About</a>
               </li>
               <li>
-                <a href="service">Services</a>
+                <a href="#service" className="footerLink btn2 btn-border-underline">Services</a>
               </li>
               <li>
-                <a href="contact">Contact</a>
+                <a href="#contact" className="footerLink btn2 btn-border-underline">Contact</a>
               </li>
             </ul>
           </div>
-          <div className="col-12 col-md-4 section">
+          <div className="col-12 col-md-3 section">
             <h3>Services</h3>
             <ul className="footerList">
-              <li>Web Application Development</li>
-              <li>UI/UX prototyping</li>
-              <li>Mobile Application development</li>
-              <li>Quality Assurance & Testing</li>
-              <li>SEO & Digital Marketing</li>
+              <li><a href="#service"> Web Application Development</a></li>
+              <li><a href="#service"> UI/UX prototyping</a></li>
+              <li><a href="#service">Mobile Application development</a></li>
+              <li><a href="#service">Quality Assurance & Testing</a></li>
+              <li><a href="#service">SEO & Digital Marketing</a></li>
             </ul>
           </div>
-          <div className="col-12 col-md-2 section">
-            <h3>Follow Us</h3>
+          <div className="col-12 col-md-3 section">
+            <h3 className="text-center">Follow Us</h3>
             <div class="wrapper">
               <div class="facebook holder">
                 <a

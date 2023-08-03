@@ -63,7 +63,7 @@ const Header = () => {
         <Container>
           <Navbar.Brand href="#home" className="fw-bold text-uppercase">
             {" "}
-            <img src={logo} /> Coderz Ninja
+            <img src={logo} /> <span className="heroFont-color">Coderz Ninja</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

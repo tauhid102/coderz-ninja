@@ -13,7 +13,7 @@
   -webkit-text-size-adjust: 100%;
 
   --primary-color: #3e57d0;
-  --hover-color: #0071f2;
+  --hover-color: #dfffd8ad;
   --font-color: #333;
 }
 
@@ -62,23 +62,32 @@
   overflow: hidden;
   background-color: #f0f0f0;
   cursor: pointer;
+  transition: .3s;
 }
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
 .service-card:hover img {
   animation: zoomInOut 2s infinite;
 }
 
 /* Custom animation for the zoom effect */
 @keyframes zoomInOut {
+
   0%,
   100% {
-    transform: scale(
-      1
-    ); /* Normal size at the beginning and end of the animation */
+    transform: scale(1);
+    /* Normal size at the beginning and end of the animation */
   }
+
   50% {
-    transform: scale(1.2); /* Zoomed-in size at the middle of the animation */
+    transform: scale(1.2);
+    /* Zoomed-in size at the middle of the animation */
   }
 }
+
 .service-card1 {
   background-color: #f8f6f4;
 }
@@ -125,8 +134,8 @@
 }
 
 .aboutusList img {
-  width: 14px;
-  transform: rotate(3.142rad);
+  width: 20px;
+  /* transform: rotate(3.142rad); */
 }
 
 .contactLeftBG {
@@ -163,9 +172,11 @@
   color: #3929bb;
   /* border: 2px solid #3929bb; */
 }
+
 .hoverEffect .icon span {
   transition: all 0.2s ease;
 }
+
 .hoverEffect:hover .icon {
   color: #0071f2;
   background-color: white;
@@ -307,7 +318,7 @@
 
 .footer {
   background-color: var(--hover-color);
-  color: #ffffff;
+  color: #000;
 }
 
 .footerList {
@@ -318,20 +329,27 @@
 
 .footerList a {
   text-decoration: none;
-  color: white;
+  color: #000;
   margin-bottom: 5px;
-  padding: 4px 10px;
+  padding: 4px 0px;
   display: inline-block;
   border-radius: 2px;
   transition: all 0.5s ease;
 }
+
 .footerList a:hover {
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
+  /* border-bottom: 1px solid var(--primary-color); */
 }
 
 .footerList a:hover {
   cursor: pointer;
-  color: #ffffff;
+  color: #000;
+}
+
+.footerService li {
+  margin-bottom: 5px;
+  cursor: pointer;
 }
 
 .copyBackground {
@@ -621,6 +639,7 @@ figure.snip1157 .author span {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
 }
+
 .text {
   /* margin-top: 40%; */
   background-color: rgba(0, 0, 0, 0.5);
@@ -632,17 +651,21 @@ figure.snip1157 .author span {
   font-size: 72px;
   text-align: center;
 }
+
 .careerWraper p {
   font-weight: 600;
 }
+
 /* ScrollToTopButton.css */
 .scroll-to-top-button {
   position: fixed;
   bottom: 20px;
   right: 20px;
   padding: 10px;
-  background-color: #007bff; /* You can change the button's background color */
-  color: #fff; /* You can change the button's text color */
+  background-color: #007bff;
+  /* You can change the button's background color */
+  color: #fff;
+  /* You can change the button's text color */
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -654,11 +677,14 @@ figure.snip1157 .author span {
 }
 
 .scroll-to-top-button:hover {
-  background-color: #0056b3; /* You can change the button's background color on hover */
+  background-color: #0056b3;
+  /* You can change the button's background color on hover */
 }
+
 .scrollUp {
   font-weight: 900;
 }
+
 /* footer social icon hover effect  */
 
 .wrapper {
@@ -679,23 +705,28 @@ figure.snip1157 .author span {
   position: relative;
   list-style: none;
 }
+
 .holder a {
   text-decoration: none;
-  color: white;
+  color: #000;
 }
 
 .icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 2em;
-  width: 2em;
+  height: 1.5em;
+  width: 1.5em;
   padding: 12px 10px 6px 10px;
   border-radius: 50%;
-  font-size: 1.8em;
+  font-size: 2em;
   transition: all 0.5s ease;
-  border: 2px solid #fff;
+  border: 2px solid #000;
   margin-left: 4px;
+}
+
+.contactBorder {
+  border: 2px solid #fff;
 }
 
 .tooltip {
@@ -734,7 +765,7 @@ figure.snip1157 .author span {
   transform: translate(1.6rem, 15px) rotate(45deg);
 }
 
-.icon:hover ~ .tooltip {
+.icon:hover~.tooltip {
   transform: translate(-25%, -60px);
   opacity: 1;
 }
@@ -744,38 +775,50 @@ figure.snip1157 .author span {
 }
 
 .facebook .icon:hover,
-.facebook .icon:hover ~ .tooltip,
-.facebook .icon:hover ~ .tooltip::before {
+.facebook .icon:hover~.tooltip,
+.facebook .icon:hover~.tooltip::before {
   background: #3b5999;
   border: 2px solid #3b5999;
 }
 
 .twitter .icon:hover,
-.twitter .icon:hover ~ .tooltip,
-.twitter .icon:hover ~ .tooltip::before {
+.twitter .icon:hover~.tooltip,
+.twitter .icon:hover~.tooltip::before {
   background: #46c1f6;
   border: 2px solid #46c1f6;
 }
 
 .instagram .icon:hover,
-.instagram .icon:hover ~ .tooltip,
-.instagram .icon:hover ~ .tooltip::before {
+.instagram .icon:hover~.tooltip,
+.instagram .icon:hover~.tooltip::before {
   background: #e1306c;
   border: 2px solid #e1306c;
 }
 
-.github .icon:hover ~ .tooltip,
-.github .icon:hover ~ .tooltip::before,
+.github .icon:hover~.tooltip,
+.github .icon:hover~.tooltip::before,
 .github .icon:hover {
-  background: #333;
-  border: 2px solid #333;
+  background: #0072b1;
+  border: 2px solid #0072b1;
 }
 
 .reddit .icon:hover,
-.reddit .icon:hover ~ .tooltip,
-.reddit .icon:hover ~ .tooltip::before {
+.reddit .icon:hover~.tooltip,
+.reddit .icon:hover~.tooltip::before {
   background: #ff4500;
 }
+
+.responsiveFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.footerLink {
+  margin-left: 0;
+}
+
 @media (max-width: 991px) {
   .hero-text {
     margin-top: 10px !important;
@@ -788,14 +831,31 @@ figure.snip1157 .author span {
 
   .section {
     margin-top: 20px !important;
+    padding-bottom: 20px !important;
     border-bottom: 1px solid var(--primary-color);
   }
 
   .displayNone {
     display: none;
   }
+
   .text {
     font-size: 42px;
+  }
+
+  .service-card:hover {
+    transform: none;
+  }
+
+  .responsiveFooter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+  .responsiveFooter p {
+    margin-bottom: 10px;
   }
 }
 

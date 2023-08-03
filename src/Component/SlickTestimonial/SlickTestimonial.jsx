@@ -59,7 +59,7 @@ const SlickTestimonial = () => {
               <div className="authorContainer">
                 <img src={male} alt="sq-sample3" />
                 <div className="author">
-                  <h6>Pelican Steve</h6>
+                  <h6>Robert Smith</h6>
                   <span>CEO, BYTM Inc</span>
                 </div>
               </div>

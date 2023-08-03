@@ -74,18 +74,18 @@ const Contact = () => {
         >
           <div className="col-12 col-lg-4 contactLeftBG">
             <div className="insideContact hoverEffect">
-              <div className="icon">
+              <div className="icon contactBorder">
                 <span className="">
                   <FaLocationDot />
                 </span>
               </div>
               <div className="contactText">
                 <h5>Location</h5>
-                <p>A108 Adam Street, New York</p>
+                <p>Mirpur, Dhaka, Bangladesh</p>
               </div>
             </div>
             <div className="insideContact mt-3 hoverEffect">
-              <div className="icon">
+              <div className="icon contactBorder">
                 <span>
                   <MdEmail />
                 </span>
@@ -96,7 +96,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="insideContact mt-3 hoverEffect">
-              <div className="icon">
+              <div className="icon contactBorder">
                 <span>
                   <FaPhone />
                 </span>
@@ -107,7 +107,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="insideContact mt-3 hoverEffect">
-              <div className="icon">
+              <div className="icon contactBorder">
                 <span>
                   <BsFillClockFill />
                 </span>
